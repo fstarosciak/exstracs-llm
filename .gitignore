@@ -1,0 +1,13 @@
+target/
+runs/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+*.local.md
+notes.md
+.env
+.env.*
+*.pem
+*.key
+secrets/
