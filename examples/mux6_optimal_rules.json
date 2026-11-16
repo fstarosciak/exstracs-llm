@@ -1,0 +1,182 @@
+{
+  "dataset": "multiplexer-6",
+  "source": "expert",
+  "rules": [
+    {
+      "id": "mux6-a00-r0-0",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "R0",
+          "type": "discrete",
+          "value": "0"
+        }
+      ],
+      "class": "0",
+      "rationale": "address 00 selects register R0"
+    },
+    {
+      "id": "mux6-a00-r0-1",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "R0",
+          "type": "discrete",
+          "value": "1"
+        }
+      ],
+      "class": "1",
+      "rationale": "address 00 selects register R0"
+    },
+    {
+      "id": "mux6-a01-r1-0",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "R1",
+          "type": "discrete",
+          "value": "0"
+        }
+      ],
+      "class": "0",
+      "rationale": "address 01 selects register R1"
+    },
+    {
+      "id": "mux6-a01-r1-1",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "R1",
+          "type": "discrete",
+          "value": "1"
+        }
+      ],
+      "class": "1",
+      "rationale": "address 01 selects register R1"
+    },
+    {
+      "id": "mux6-a10-r2-0",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "R2",
+          "type": "discrete",
+          "value": "0"
+        }
+      ],
+      "class": "0",
+      "rationale": "address 10 selects register R2"
+    },
+    {
+      "id": "mux6-a10-r2-1",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "0"
+        },
+        {
+          "attribute": "R2",
+          "type": "discrete",
+          "value": "1"
+        }
+      ],
+      "class": "1",
+      "rationale": "address 10 selects register R2"
+    },
+    {
+      "id": "mux6-a11-r3-0",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "R3",
+          "type": "discrete",
+          "value": "0"
+        }
+      ],
+      "class": "0",
+      "rationale": "address 11 selects register R3"
+    },
+    {
+      "id": "mux6-a11-r3-1",
+      "conditions": [
+        {
+          "attribute": "A0",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "A1",
+          "type": "discrete",
+          "value": "1"
+        },
+        {
+          "attribute": "R3",
+          "type": "discrete",
+          "value": "1"
+        }
+      ],
+      "class": "1",
+      "rationale": "address 11 selects register R3"
+    }
+  ]
+}
