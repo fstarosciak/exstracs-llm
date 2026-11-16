@@ -1,0 +1,15 @@
+[package]
+name = "exstracs"
+version = "0.1.0"
+edition = "2021"
+publish = false
+license = "MIT"
+description = "ExSTraCS supervised learning classifier system with rule-population seeding"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+csv = "1"
+rand = { version = "0.8", default-features = false, features = ["alloc"] }
+rand_chacha = { version = "0.3", default-features = false }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1", features = ["float_roundtrip"] }
